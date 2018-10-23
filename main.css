@@ -26,7 +26,7 @@ h2{
 }
 
 
-#zeldaDownText, a {
+#zeldaDownText{
     
     
     font-size: 12px;
@@ -39,6 +39,16 @@ h3 {
     font-family: arial;
     color:coral;
     font-size: 30px;
+}
+
+
+
+#thank {
+    
+    font-family:arial;
+    font-size: 20px;
+    color:darkcyan;
+    
 }
 
 
