@@ -29,7 +29,7 @@
     
     <script>
     function zeldaDownloads(){
-        document.getElementById("zeldaDownText").innerHTML = "Minish Cap: bit.ly/minishcap";
+        document.getElementById("zeldaDownText").style.display='block';
     }
         
     
@@ -48,7 +48,10 @@
     <center>
         <button id="zeldaDown" type="button" onclick="zeldaDownloads()"><h2>The Legend of Zelda</h2></button>
         
-        <p id=zeldaDownText></p>
+        <div id='zeldaDownText' style='display:none'>
+        <br><a href="http://bit.ly/minishcap" id="zeldaDownLinks" target="_blank">MinishCap(GBA)</a>
+        <br><a href="http://bit.ly/GBALinkPast" id="zeldaDownLinks" target="_blank">LinkToThePast(GBA)</a>    
+        </div>
     </center>    
     
     

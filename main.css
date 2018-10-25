@@ -26,13 +26,6 @@ h2{
 }
 
 
-#zeldaDownText{
-    
-    
-    font-size: 12px;
-    
-}
-
 
 h3 {
     text-align: center;
@@ -50,5 +43,16 @@ h3 {
     color:darkcyan;
     
 }
+
+
+#zeldaDownLinks{
+    
+    
+    font-family: triforce;
+    font-size: 20px;
+    color:deepskyblue;
+    
+}
+
 
 
